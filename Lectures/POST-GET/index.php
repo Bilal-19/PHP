@@ -9,12 +9,12 @@
 
 <body>
     <!-- get -->
-    <!-- <form action="index.php" method="get">
+    <form action="index.php" method="get">
         Password: <input type="password" name="password">
         <input type="submit">
-    </form> -->
-    <!-- <?php echo "Your password is: ", $_GET["password"] ?> -->
-    <!-- <hr> -->
+    </form>
+    <?php echo "Your password is: ", $_GET["password"] ?>
+    <hr>
 
     <!-- post -->
     <form action="index.php" method="post">
