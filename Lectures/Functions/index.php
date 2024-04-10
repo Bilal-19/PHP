@@ -39,10 +39,17 @@
     function cube($num)
     {
         // return keyword break the function
+        // The code written next to the line of return statement is unreachable and PHP won't execute it
         return $num * $num * $num;
     }
 
     echo cube(3);
+
+    echo "<br>";
+
+    // Calling function cube one more time
+    $cubeResult = cube(5);
+    echo "Ouput: $cubeResult";
 
     ?>
 </body>
