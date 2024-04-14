@@ -18,18 +18,18 @@
     $randomValues = array("first", 3, true);
 
     // Access the first value of array
-    echo "Array first value:",$phoneBrand[0];
+    echo "Array first value:", $phoneBrand[0];
 
     echo "<br>";
 
     // Access the third value of array
-    echo "Array second value:",$phoneBrand[2];
+    echo "Array third value:", $phoneBrand[2];
 
     echo "<br>";
 
     // Modify the value of array at index position 3
-    $randomValues[2] = "Nokia";
-    echo "Modified second value of array:",$randomValues[2];
+    $phoneBrand[2] = "Nokia";
+    echo "Modified second value of array:", $phoneBrand[2];
 
     echo "<br>";
 
@@ -45,7 +45,7 @@
     echo "<br>";
 
     // Compute the total length of array
-    echo "Array total length: ",count($randomValues);
+    echo "Array total length: ", count($randomValues);
     ?>
 
 </body>

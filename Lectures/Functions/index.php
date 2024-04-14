@@ -15,10 +15,10 @@
     {
         echo "Hello User";
     }
-    sayHi();
-
-    echo "<br>";
-
+    // sayHi();
+    
+    // echo "<br>";
+    
     // Custom greeting function
     function customGreeting($name)
     {
@@ -36,10 +36,10 @@
     echo "<br>";
 
     // Return statement
+    // return keyword break the function
+    // The code written next to the line of return statement is unreachable and PHP won't execute it
     function cube($num)
     {
-        // return keyword break the function
-        // The code written next to the line of return statement is unreachable and PHP won't execute it
         return $num * $num * $num;
     }
 

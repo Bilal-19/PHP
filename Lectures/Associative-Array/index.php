@@ -37,7 +37,7 @@
     echo "<hr>";
 
     // Here, we're getting value using associative arrays
-    echo "Grade of ",$_POST["student"] ," is ", $Grades[$_POST["student"]];
+    echo "Grade of ", $_POST["student"], " is ", $Grades[$_POST["student"]];
     ?>
 </body>
 
